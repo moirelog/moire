@@ -1,7 +1,6 @@
 
 import { marked } from 'marked';
 import { config } from '../../../moire.config';
-import { normalizeUtcOffset } from '$lib/utils';
 
 export type Memo = {
   slug: string;
@@ -70,8 +69,7 @@ export async function getMemos(): Promise<Memo[]> {
         const minute = match[5];
         const second = match[6];
 
-        const utcOffset = normalizeUtcOffset(config.utcOffset);
-        const isoString = `${ year }-${ month }-${ day }T${ hour }:${ minute }:${ second }${ utcOffset }`;
+        const isoString = `${ year }-${ month }-${ day }T${ hour }:${ minute }:${ second }Z`;
         date = new Date(isoString);
       }
 
