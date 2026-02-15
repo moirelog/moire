@@ -95,7 +95,7 @@
                         [&_th]:bg-[var(--bg-color)] [&_th]:text-[var(--text-color)] [&_th]:p-2 [&_th]:border-b-2 [&_th]:border-[var(--border-color)] [&_th]:text-center
                         [&_td]:p-2 [&_td]:border-b [&_td]:border-[var(--border-color)] [&_td]:text-center
                         [&_blockquote]:border-l-4 [&_blockquote]:border-[var(--accent-color)] [&_blockquote]:bg-[var(--bg-color)] [&_blockquote]:py-2 [&_blockquote]:px-4 [&_blockquote]:my-4 [&_blockquote]:italic [&_blockquote]:text-[0.9rem] [&_blockquote]:text-[var(--text-color)] [&_blockquote]:rounded-r-lg
-                        [&_.tag-link]:bg-[var(--bg-color)] [&_.tag-link]:text-[var(--accent-color)] [&_.tag-link]:px-2 [&_.tag-link]:py-0.5 [&_.tag-link]:rounded-full [&_.tag-link]:text-[10px] [&_.tag-link]:no-underline [&_.tag-link]:mx-0.5 [&_.tag-link]:font-bold [&_.tag-link]:transition-all [&_.tag-link]:hover:scale-110
+                        [&_.tag-link]:bg-[var(--bg-color)] [&_.tag-link]:text-[var(--accent-color)] [&_.tag-link]:px-2 [&_.tag-link]:py-0.5 [&_.tag-link]:rounded-full [&_.tag-link]:text-[11px] [&_.tag-link]:no-underline [&_.tag-link]:mx-0.5 [&_.tag-link]:font-bold [&_.tag-link]:transition-all [&_.tag-link]:hover:scale-110
                         "
              onclick={(e) => {
                 const target = e.target as HTMLElement;

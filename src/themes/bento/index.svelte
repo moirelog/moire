@@ -65,7 +65,7 @@
                    [&_h4]:text-[0.95rem] [&_h4]:font-semibold [&_h4]:mb-1 [&_h4]:mt-2 [&_h4]:text-slate-700
                    [&_h5]:text-[0.85rem] [&_h5]:font-medium [&_h5]:italic [&_h5]:mb-1 [&_h5]:text-slate-700
                    [&_p]:my-4 [&_p]:text-slate-600 tracking-wider 
-                   [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:my-4
+                   [&_ul]:list-disc [&_ul]:pl-5
                    [&_ol]:list-decimal [&_ol]:pl-5 [&_ol]:my-4
                    [&_li]:text-slate-600 [&_li]:my-1
                    [&_li::marker]:text-slate-400

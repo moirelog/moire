@@ -82,7 +82,7 @@
                         [&_h4]:text-[1rem] [&_h4]:font-bold [&_h4]:mb-3 [&_h4]:mt-4 [&_h4]:text-[var(--text-color)]/80
                         [&_h5]:text-[0.9rem] [&_h5]:font-bold [&_h5]:mb-2 [&_h5]:mt-3 [&_h5]:text-[var(--text-color)]/70
                         [&_a]:text-[var(--accent-color)] [&_a]:no-underline [&_a]:border-b [&_a]:border-[var(--accent-color)]/30 [&_a]:underline-offset-4 [&_a]:hover:border-[var(--accent-color)] [&_a]:hover:bg-[var(--accent-color)]/5 [&_a]:transition-all
-                        [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:my-4 [&_ol]:list-decimal [&_ol]:pl-5 [&_ol]:my-4
+                        [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5
                         [&_p]:my-4
                         [&_table]:border-collapse [&_table]:border-y-1 [&_table]:border-black [&_table]:my-6 [&_table]:w-full [&_table]:text-sm
                         [&_th]:border-b-1 [&_th]:border-black [&_th]:border-dashed [&_th]:font-bold [&_th]:p-3 [&_th]:text-center [&_th]:uppercase
