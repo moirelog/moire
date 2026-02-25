@@ -42,7 +42,8 @@ export async function getMemos(): Promise<Memo[]> {
             const assetUrl = assetModule && typeof assetModule === 'object' ? assetModule.default : assetModule;
 
             if (assetUrl) {
-              return `![${ alt }](${ assetUrl })`;
+              const normalizedAssetUrl = assetUrl.startsWith('/') ? `.${ assetUrl }` : assetUrl;
+              return `![${ alt }](${ normalizedAssetUrl })`;
             }
           }
 
